@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tradeoffs in Design Research: Development Oriented Triangulation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,92.28,193.45,74.76,10.04"><forename type="first">Koen</forename><surname>Van Turnhout</surname></persName>
+							<email>koen.vanturnhout@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,173.83,193.45,73.32,10.04"><forename type="first">Sabine</forename><surname>Craenmehr</surname></persName>
+							<email>sabine.craenmehr@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,254.42,193.45,65.47,10.04"><forename type="first">Robert</forename><surname>Holwerda</surname></persName>
+							<email>robert.holwerda@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,326.96,193.45,46.33,10.04"><forename type="first">Mike</forename><surname>Menijn</surname></persName>
+							<email>mike.menijn@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,379.95,193.45,64.41,10.04"><forename type="first">Jan-Pieter</forename><surname>Zwart</surname></persName>
+							<email>janpieter.zwart@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,451.04,193.45,51.94,10.04"><forename type="first">René</forename><surname>Bakker</surname></persName>
+							<email>rene.bakker@han.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Academy of Information Technology</orgName>
+								<orgName type="institution">University of Applied Sciences</orgName>
+								<address>
+									<addrLine>Communication ; Ruitenberglaan 26</addrLine>
+									<postCode>6826 CC</postCode>
+									<settlement>Arnhem</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tradeoffs in Design Research: Development Oriented Triangulation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4695C7C12AA9CC9643164A104C084408</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3" ident="GROBID" when="2023-07-11T22:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Triangulation</term>
+					<term>Mixed-Method Research</term>
+					<term>Methodology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Development Oriented Triangulation (DOT) framework in this paper can spark and focus the debate about mixed-method approaches in HCI. The framework can be used to classify HCI methods, create mixed-method designs, and to align research activities in multidisciplinary projects. The framework is generic enough to capture the diversity of research within the HCI community, while being specific enough to foster constructive debate about combinatorial opportunities and difficulties in mixed-method research in HCI. An analysis of 10 previously published academic HCI research papers showed the utility of the framework for describing a wide range of HCI papers and for raising methodological questions about mixed method approaches in HCI.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>HCI has been an interdisciplinary field from the beginning <ref type="bibr" coords="1,99.28,423.90,61.76,11.18" target="#b14">(Grudin 2005)</ref>, although the number of contributing disciplines has grown substantially in the last two decades <ref type="bibr" coords="1,155.68,446.94,61.81,11.18" target="#b5">(Carroll 2003)</ref>. While most HCI researchers appreciate this diversity, they also hold different views about methods and standards for good research. This makes evaluating each other's work <ref type="bibr" coords="1,108.66,492.92,122.08,11.18" target="#b1">(Bartneck, Rauterberg 2007</ref><ref type="bibr" coords="1,230.75,492.92,48.87,11.18;1,51.06,504.44,106.87,11.18" target="#b16">, Harrison, Tatar &amp; Sengers 2007)</ref> as well as cooperating in teams <ref type="bibr" coords="1,81.09,515.90,100.47,11.18" target="#b21">(Mackay, Fayard 1997)</ref>challenging.</p><p>There are roughly two types of responses to these challenges. In the demarcation response, authors typically offer a classification of the research paradigms of HCI (such as 'design', 'engineering' and 'science') and try to explicate the type of contributions, underlying epistemological assumptions and knowledge standards of these different research paradigms. The underlying idea seems to be to gain understanding for one particular approach (often 'design') as opposed to others (see, for example: <ref type="bibr" coords="1,84.94,648.47,122.73,11.18" target="#b1">Bartneck, Rauterberg, 2007</ref><ref type="bibr" coords="1,207.67,648.47,66.95,11.18;1,51.05,659.93,90.26,11.18" target="#b16">, Harrison, Tatar &amp; Sengers 2007</ref><ref type="bibr" coords="1,141.31,659.93,138.37,11.18;1,51.05,671.45,20.04,11.18" target="#b18">, Jarvis, Cameron &amp; Boucher 2012</ref><ref type="bibr" coords="1,71.09,671.45,86.31,11.18" target="#b25">, Wolf et al. 2006)</ref>. This response, however, puts the focus on the differences between HCIresearchers and not on the nuts and bolts of multidisciplinary cooperation or the way in which 'interdisciplinarity' as an asset of HCI-research could be appraised.</p><p>Another response to the challenges of diversity is the triangulation response which recommends combining methods and, more broadly, epistemological practices from different disciplines <ref type="bibr" coords="1,503.69,402.48,40.56,11.18;1,315.64,414.01,54.47,11.18" target="#b21">(Mackay, Fayard 1997</ref><ref type="bibr" coords="1,370.11,414.01,104.34,11.18" target="#b23">, Petter, Gallivan 2004)</ref>. This view has been put forward most forcefully in <ref type="bibr" coords="1,479.40,425.47,59.68,11.18;1,315.64,436.99,45.14,11.18" target="#b21">(Mackay, Fayard 1997)</ref>. Although their views were received sympathetically, their work didn't launch a lively debate about specific triangulation approaches in the HCI literature. This is a pity: since not all combinations of methods or approaches are equally effective or informative, researchers need a language to discuss and share best practices in mixed-method approaches. This situation in HCI is reminiscent of that in the social sciences, where triangulation has been recommended since the nineteen-seventies <ref type="bibr" coords="1,405.94,551.98,61.30,11.18" target="#b8">(Denzin 1970</ref>) but where attempts to develop best practice frameworks for mixed method approaches are much more recent <ref type="bibr" coords="1,315.64,586.49,70.29,11.18" target="#b2">(Bergman 2008)</ref>.</p><p>In this paper we try to take a first step to advance the debate on mixed method approaches in HCI. Much like <ref type="bibr" coords="1,362.07,626.99,67.79,11.18" target="#b2">(Bergman 2008</ref>) we feel we need a synthesis of the demarcation literature and the triangulation literature to move on. The Development Oriented Triangulation (DOT) framework, which we present in this paper, offers such a synthesis. This paper is organized as follows. First the framework and the way it builds on previous work is presented. After that we show its applicability on 10 recent HCI papers and we share insights resulting from this analysis. We close the paper with a critical assessment of the framework and suggestions for future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">DEVELOPMENT ORIENTED TRIANGULATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Two domains for HCI research</head><p>In the Development Oriented Triangulation (DOT) framework we cast HCI research as an organized learning activity which is instrumental to an innovation or development challenge and, as such, brokers between the domain of available work and the application domain. The application domain is both object of study and a target for HCI researchers. When HCI researchers develop new software for a hospital they may study work practices in the hospital and they will try to improve it by creating the software. With the domain of available work we refer to the body of existing artifacts, theories and models which researchers can have access to. The HCI researchers of the hospital study will try to learn form available theories and existing solutions for related problems. They will typically strive to make their work available to the HCI community, in turn. This distinction between these two domains is congruent with the views of <ref type="bibr" coords="2,176.12,318.23,103.53,11.18" target="#b21">(Mackay, Fayard 1997)</ref> and closely follows <ref type="bibr" coords="2,137.15,329.69,81.67,11.18" target="#b17">(Hevner et al. 2004</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Overview of the DOT framework</head><p>The complete DOT-framework is shown in figure <ref type="figure" coords="2,271.41,372.71,4.18,11.18" target="#fig_0">1</ref>: it identifies five types of research, which are organized along 3 central trade-offs which HCI researchers face when they select research methods. In the following section each of these trade-offs is discussed in turn. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Three trade-offs</head><p>Many demarcation papers provide a classification of epistemological practices based on their underlying research traditions, disciplines or paradigms (see for example: <ref type="bibr" coords="2,397.47,120.23,119.07,11.18" target="#b1">Bartneck, Rauterberg 2007</ref><ref type="bibr" coords="2,516.54,120.23,22.95,11.18;2,315.66,131.69,135.50,11.18" target="#b16">, Harrison, Tatar &amp; Sengers 2007)</ref>. We tried to transcend this approach by identifying the main tradeoffs that researchers have to address, independent of their research background. This is strongly inspired by the <ref type="bibr" coords="2,379.12,177.71,114.51,11.18" target="#b24">(Runkel, MacGrath 1972)</ref> framework which classifies social science methods based on universal research concerns such as generality across actors, precision of measurement and system character of context. We feel such an axiology is a much better candidate to facilitate multidisciplinary cooperation and constructive debate about mixed method approaches, than a focus on the traditions or origins of the differences between HCI researchers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1">Rigor or Relevance.</head><p>We faced the first tradeoff immediately when we discussed the two domains of HCI. <ref type="bibr" coords="2,483.73,325.67,60.52,11.18;2,315.66,337.19,28.92,11.18" target="#b17">Hevner et al. (2004)</ref> propose two research cycles for design sciences. First there is a relevance research cycle in which a researcher learns about and tries to improve the application domain (e.g. work practices in a hospital). Second, there is the rigor research cycle in which a researcher learns from available work (e.g. related solutions) and contributes new work (e.g. a novel approach to the problem). Researchers from different backgrounds may differ in their preferences for the relative importance or the order in which they want to address rigor and relevance, but both are shared long term for goals HCI. Since they are hard to optimize simultaneously within a single study they need to be triangulated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">Certainty or Completeness?</head><p>A second distinction is the tradeoff between certainty and completeness. This is taken from the <ref type="bibr" coords="2,315.66,542.69,116.14,11.18" target="#b24">(Runkel, MacGrath 1972)</ref> framework. They distinguish between the concerns for precision of measurement versus system character of context. A researcher opting for precision of measurement tends to use methods like laboratory experiments or judgment tasks. A researcher that values the system character of context would rather chose field studies or ethnography. In the long run it is important to 'see the whole picture' and to 'understand the context' and also to be 'certain' of your theories, ideas or solutions'. But this requires triangulation, as the values cannot be addressed with a single method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3">Inspiration or Data?</head><p>A third tradeoff is a pragmatic version of a prominent debate in the demarcation literature, which has been traced back by <ref type="bibr" coords="2,430.83,736.67,56.28,11.18" target="#b9">(Dorst 1997)</ref> to the philosophical distinction between positivism and phenomenology. Positivists hold that research should discover regularities in the objective reality through the scientific method. 'Technical rationality', 'Rational problem-solving' <ref type="bibr" coords="3,154.21,91.19,50.83,11.18" target="#b9">(Dorst 1997</ref>) and the 'cognitive science model' for HCI research <ref type="bibr" coords="3,235.81,102.71,43.87,11.18;3,51.06,114.23,106.46,11.18" target="#b16">(Harrison, Tatar &amp; Sengers 2007)</ref> are part of the positivistic paradigm family. Phenomenologists, in contrast, study the subjective experience of the researcher. 'Constructive Design Research' <ref type="bibr" coords="3,203.77,148.73,75.88,11.18;3,51.06,160.19,20.46,11.18" target="#b19">(Koskinen et al. 2011</ref>) 'The Phenomenological Matrix' <ref type="bibr" coords="3,235.81,160.19,43.94,11.18;3,51.06,171.71,102.67,11.18" target="#b16">(Harrison, Tatar &amp; Sengers 2007)</ref> and 'Creative Design' <ref type="bibr" coords="3,256.38,171.71,23.38,11.18;3,51.06,183.23,45.87,11.18" target="#b25">(Wolf et al. 2006</ref>) can be considered part of the phenomenological paradigm family. <ref type="bibr" coords="3,51.06,212.21,51.58,11.18" target="#b9">(Dorst 1997</ref>) depicts positivism and phenomenology as incompatible paradigms, which creates clarity in the epistemological debate, but which does little justice to pragmatic HCI researchers who manage to combine methods from both traditions. Therefore, we narrowed the distinction down to two different views on the role of the researcher in an HCI project. In the phenomenological tradition, HCI research can embrace the researcher as an active, reflexive, participant who organizes his work to strengthen his personal intuition or inspiration. We call these methods inspiration-oriented methods. In the positivist tradition, the researcher can take the role of objective or neutral observer of reality. We call methods that try to ensure this neutrality: dataoriented methods. In the long run most HCI projects require moments of personal researcher involvement and more distanced approaches, which makes triangulation desirable. We depicted the inspiration versus data distinction in color coding within the five circles of the framework.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Five location metaphors</head><p>Having set out a space in which we could plot HCI methods and set out triangulation paths, we can add a labeling of the methods in different areas of the framework. <ref type="bibr" coords="3,120.21,519.71,92.45,11.18" target="#b19">(Koskinen et al. 2011</ref>) discuss three metaphors for what they call 'constructive design research': lab, field and showroom. These metaphors are locations or places where certain types of research can take place (so where methods are executed). Both the metaphorical approach as the specific metaphors suited our framework, but we had to add two metaphors (library and workshop) to cover all the distinctions we wanted to make in our framework (see Figure <ref type="figure" coords="3,156.13,625.02,3.87,9.27" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Field</head><p>Field methods, often borrowed from interpretive social science <ref type="bibr" coords="3,121.63,667.67,59.22,11.18" target="#b22">(Oates 2005)</ref>, aim to capture the context of design <ref type="bibr" coords="3,133.18,679.19,99.07,11.18" target="#b19">(Koskinen et al. 2011)</ref>, or in the terms of our framework: aim to get a complete understanding of the application domain (addressing the concern for relevance of the study). There are data-oriented field methods such as contextual inquiry and inspiration oriented field methods such as cultural probes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">Library</head><p>The library setting contains a collection of methods which enable the researcher to obtain insights into the relevant, available work. Literature studies, benchmarking and competition analyses are all library studies. A library study may be inspirational or data oriented, but it always aims to get a better connection with and a complete picture of available work that may be relevant to the research problem (addressing rigor and completeness).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3.">Workshop</head><p>Most software engineering disciplines <ref type="bibr" coords="3,494.96,204.71,49.30,11.18;3,315.66,216.23,35.98,11.18" target="#b17">(Hevner et al. 2004</ref><ref type="bibr" coords="3,351.64,216.23,62.74,11.18" target="#b22">, Oates 2005</ref>) and the research through design community <ref type="bibr" coords="3,401.78,227.69,95.97,11.18" target="#b19">(Koskinen et al. 2011</ref><ref type="bibr" coords="3,497.76,227.69,41.13,11.18;3,315.66,239.21,145.22,11.18" target="#b26">, Zimmerman, Forlizzi &amp; Evenson 2007)</ref> consider creating artifacts an important part of research and development efforts. We define 'workshop methods' as methods which aim to improve the developed solution without a direct reference to the domain of available work or application context. This includes sketching and prototyping. Workshop methods could be inspirational (such as through creative and systematic exploration of the solution space in a 'form study') or data oriented (such as iteratively improving the objective performance of a system following some predefined method). <ref type="bibr" coords="3,481.69,365.69,62.52,11.18;3,315.66,377.21,20.05,11.18" target="#b17">(Hevner et al. 2004</ref><ref type="bibr" coords="3,335.71,377.21,173.77,11.18" target="#b26">, Zimmerman, Forlizzi &amp; Evenson 2007</ref><ref type="bibr" coords="3,509.48,377.21,34.75,11.18;3,315.66,388.67,25.57,11.18" target="#b22">, Oates 2005)</ref> and <ref type="bibr" coords="3,369.17,388.67,84.82,11.18" target="#b25">(Wolf et al. 2006)</ref> propose academic criteria for judging the quality of workshop methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4.">Lab</head><p>Following <ref type="bibr" coords="3,364.89,433.19,104.85,11.18" target="#b19">(Koskinen et al. 2011</ref>) we used the lab(oratory) metaphor to cover methods that aim to reach empirically grounded conclusions about a design. We consider any method that aims at testing an aspect of a proposed solution, against aspects of (or goals for) the application domain, optimizing the certainty of the conclusions to be a 'lab method'. Lab studies complement field studies with their concern for relevance, but field studies are more suitable for getting an overview, while the lab studies aim at certainty in their results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.5.">Showroom</head><p>We broadened the showroom metaphor used by <ref type="bibr" coords="3,315.66,592.67,101.50,11.18" target="#b19">(Koskinen et al. 2011)</ref> to include any method that helps to make the work more reusable by other researchers. For example: when the performance of a pattern recognition algorithm is compared to that of other approaches to the problem it helps researchers to assess the potential of the proposed method. This is a (data oriented) showroom study. An example of and inspiration oriented showroom study could be if the researcher critiques his design in comparison with other designs that served as an inspiration in earlier stages. Also the creation of design frameworks or guidelines, intended to highlight considerations that go beyond individual designs. Showroom studies typically optimize rigor and certainty over other values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">TESTING THE FRAMEWORK</head><p>To explore its usefulness we applied the DOTframework to 10 recent HCI papers. For all papers we regarded the research in the paper as a triangulated research effort in the DOT-framework. We wanted to learn which difficulties occurred when classifying the research using DOT. Also, we tried to see if the application of the framework would raise methodological issues which were not addressed by original authors. We felt that -if the DOT-framework is suitable to strengthen the debate about mixed-method approaches in HCI, such questions should arise.</p><p>We used an a-select random sample of 10 papers (about 10%) from the NordiCHI 2012 proceedings for this study. NordiCHI is one of the larger European conferences and since our sample covered a reasonable portion of its proceedings it should give a fair representation of work done in the (European) HCI community. Our sample consisted of 8 long and 2 short papers, including a wide range of topics such as end user programming <ref type="bibr" coords="4,224.40,325.67,55.26,11.18;4,51.06,337.19,23.63,11.18" target="#b0">(Ardito et al. 2012)</ref>, augmented reality <ref type="bibr" coords="4,181.10,337.19,98.48,11.18;4,51.06,348.71,69.43,11.18" target="#b13">(Grubert, Grasset &amp; Reitmayr 2012)</ref> and usability testing <ref type="bibr" coords="4,218.02,348.71,61.60,11.18;4,51.06,360.17,77.07,11.18" target="#b10">(Følstad, Law &amp; Hornbaek 2012)</ref>.</p><p>We scored the methods in the papers according to the five research locations of the DOT-framework. We made a distinction between a thick and a thin path through the framework. The thick path listed the main contributions of the paper, usually 2-4 chunks of research. The thin path listed other research efforts which were touched upon but not explicitly described as a study in the paper: such as a small literature review (library study) in all papers or a small section with 'implications for design'. In particular we only considered a literature review as part of the thick path if it could be counted as a separate contribution of the paper. The DOTframework defines research as instrumental to a development challenge. However, not all papers stated the challenge to which their paper contributed. In these cases we inferred the most likely development challenge from the research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Results</head><p>Table <ref type="table" coords="4,81.84,616.19,5.57,11.18">1</ref> summarizes the classification of the 10 papers in the framework. We marked the thin path with an ~. The numbers refer to the order in which the thick path studies were conducted, inspiration oriented methods were further labeled with a -i mark and data oriented methods with a -d mark.</p><p>Most papers could be described in terms of the DOT framework. However, there were two ambiguous method placements. In their paper about the design of remote assistance systems with mobile devices <ref type="bibr" coords="4,87.76,741.17,76.59,11.18" target="#b12">(Giusti et al. 2012</ref>) used a lab experiment to find out how people would set up remote assis-tance situation with mobile devices. This paper could be classified as a field study carried out in the lab (aiming to get a complete picture of human behavior in the -now-simulated application context) or a lab study (aiming to get certainty about certain aspects of the application context). We decided to classify it as an inspiration-oriented lab study, because the researchers tried to create the, in their view, representative situations for the application context; thus exhibiting a substantial amount of experimenter control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference</head><p>Library Field Workshop Lab Showroom</p><formula xml:id="formula_0" coords="4,315.66,257.44,225.20,220.59">(Ardito et al. 2012) ~ 1-i 2-i (Brown, Lindgaard &amp; Biddle 2012) ~ 1-d 2-d (Clarke, Wright 2012) ~ 1-i ~ (Dalsgaard, Halskov 2012) ~ 1-i 2-i 3-i (Følstad, Law &amp; Horn- baek 2012) ~ 1-d ~ (Freitag, Tränkner &amp; Wacker 2012) ~ 1-i 2-d (Giusti et al. 2012) ~ 1-i 2-i 3-i (Grubert, Grasset &amp; Reitmayr 2012) 2-d 1-d 3-i 4-i ~ (Hansen et al. 2012) ~ 1-d 4-i 2-d 3-i (Laporte, Slegers &amp; De Grooff 2012) 1-d 2-d ~ 3-i</formula><p>Table <ref type="table" coords="4,346.22,487.52,3.99,8.33">1</ref>: description of DOT-framework paths for 10 HCI papers.</p><p>A second difficulty arose in classifying workshop methods with a strong user involvement. <ref type="bibr" coords="4,504.20,535.55,40.05,11.18;4,315.66,547.07,116.26,11.18" target="#b20">(Laporte, Slegers &amp; De Grooff 2012)</ref>, for example, explored a new way of segmenting personas and (Clarke, Wright 2012) explored the elicitation of crosscultural stories in a series of co-creation settings. Such case studies of exploring new user-centereddesign methods have 'workshop' properties because the execution of the method is one central object of study, but they also have 'lab' attributes because, collaterally, they explore the applicability of the method in the application domain. We classified them as workshop methods in the thick cycle, and added lab to the thin cycle.</p><p>In general we may say the concerns highlighted in the DOT-framework are valid but that not all methods can be put in a corner of the framework. Moreover the concerns are sometimes addressed without a full study (thin cycle). <ref type="bibr" coords="5,51.06,89.69,93.03,11.18" target="#b17">(Hevner et al. 2004)</ref> propose two research cycles for design science: a relevance cycle and a rigor cycle. We amended this work by distinguishing 5 separate types of research, addressing their concerns in different ways. The diversity of approaches which we found in our sample supports this amendment. For example: we did not find a paper which includes a full relevance cycle (field, workshop, lab) and only one to include a full rigor cyclelibrary, workshop, showroom <ref type="bibr" coords="5,188.53,193.19,91.08,11.18;5,51.06,204.71,72.90,11.18" target="#b20">(Laporte, Slegers &amp; De Grooff 2012)</ref>. There appear to be different recurring patterns of mixed-method approaches though. Identifying these with more certainty is part of our future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Discussion</head><p>The DOT-framework can be used as a quick check on the 'balance' of the work presented in a paper.</p><p>Typically, when we tried to draft next steps for the papers in the sample, these had a complementary research pattern. One example is the work by <ref type="bibr" coords="5,51.06,314.21,91.90,11.18" target="#b15">(Hansen et al. 2012)</ref>, who explored the idea of location based voice messages through 'talking badges'. Their work focused on workshop and lab; i.e. choosing the best implementation for the badges and testing some scenario's with users. The results where positive from a technical perspective, but disappointing from a user perspective, suggesting a field study or even a complete relevance cycle (field, workshop, lab) to find apt niches for the system as a follow up. This follow up is suggested by the authors in their conclusion section, but it also readily follows from the profile of the original study in the DOT-framework. As researchers cannot address all concerns of the framework in a single paper, it may be advisable to use the thin path to address those issues that are outside the scope of the paper. For example: rigor based studies could benefit from a relevance quick-scan: researchers could quickly assess the user needs around an opportunity which arises from technological developments.</p><p>Workshop and showroom approaches turn out to be prevalent steps in the papers we screened (Table <ref type="table" coords="5,67.67,584.69,3.90,11.18">1</ref>), but the diversity in which this work is reported is large. Little consensus exists about the application of academic standards such as transparency, reliability and validity to these types of research.</p><p>In particular for showroom, authors usually report the results and not the way these were obtained. Notable exceptions are <ref type="bibr" coords="5,157.03,653.69,122.61,11.18;5,51.06,665.15,25.59,11.18" target="#b3">(Brown, Lindgaard &amp; Biddle 2012)</ref> who included a post-analysis literature study in their paper and <ref type="bibr" coords="5,139.54,676.67,140.24,11.18;5,51.06,688.19,25.57,11.18" target="#b20">(Laporte, Slegers &amp; De Grooff 2012)</ref> who explicitly related their outcomes to existing guidelines.</p><p>Workshop studies show an even greater diversity and few authors take care to explicate the standards they use to report it. An exception is <ref type="bibr" coords="5,51.06,751.67,117.02,11.18" target="#b7">(Dalsgaard, Halskov 2012)</ref>: who used their process reflection tool. There are standards for these types of studies <ref type="bibr" coords="5,365.01,79.73,88.55,11.18" target="#b17">(Hevner et al. 2004</ref><ref type="bibr" coords="5,453.56,79.73,61.03,11.18" target="#b22">, Oates 2005</ref><ref type="bibr" coords="5,514.59,79.73,24.65,11.18;5,315.66,91.19,164.11,11.18" target="#b26">, Zimmerman, Forlizzi &amp; Evenson 2007</ref><ref type="bibr" coords="5,479.77,91.19,64.40,11.18;5,315.66,102.71,23.64,11.18" target="#b25">, Wolf et al. 2006)</ref>, but researchers can also look at the DOTframework. The DOT-framework suggests to make the interfacing of workshop studies with library, field, lab and showroom in the reflective design cycle explicit. In our sample this is done well by <ref type="bibr" coords="5,315.66,160.19,156.43,11.18" target="#b13">(Grubert, Grasset &amp; Reitmayr 2012)</ref>. <ref type="bibr" coords="5,315.66,177.71,74.18,11.18" target="#b2">(Bergman 2008)</ref> points out that rethinking mixedmethod approaches also strengthens our understanding of individual methods. The DOTframework suggests a mutual focus for all five types of methods. For example: field studies need to optimize the way in which they can paint a complete picture of the application domain, while they have to deliver results in a form which is useful for an exploration of the design space, too. It is surprising we found so little comments about the mutual focus of the chosen methods, or, more general, on the interrelations of the different parts in a larger study. How does a lab study help a workshop study or vice versa? Often the 'magic' of effective mixed method design is in between methods. The DOT framework might help to dispel this magic by making questions of interrelations between methods more salient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSIONS AND FUTURE WORK</head><p>Judging from our sample, mixed-method approaches are the rule rather than the exception in HCI. We have shown our framework can be used to describe the triangulation trajectories of HCI researchers and we have shown this raises new questions about mixed-method approaches in HCI. This is a step forward, but we did not yet manage to probe into the combinatorial rationale of mixedmethod approaches <ref type="bibr" coords="5,410.93,518.21,102.22,11.18" target="#b23">(Petter, Gallivan 2004)</ref>, sufficiently.</p><p>We are planning a follow-up to identify mixedmethod research design patterns within our framework. This demands closer scrutiny which is for example done for the social sciences by <ref type="bibr" coords="5,506.53,581.69,37.79,11.18;5,315.66,593.15,23.61,11.18" target="#b4">(Bryman 2008)</ref>. He created a large inventory of reasons for mixing methods used this to study both rationale and actual use by researchers. Also, on top of a more precise scrutiny of the way in which HCI researchers mix methods we would like to explore the utility of the DOT-framework as a planning and reflection tool for research and as a tool to achieve common ground in multidisciplinary projects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">ACKNOWLEDGEMENT</head><p>The authors would like to thank Ton Ammerlaan, for reviewing an earlier draft of this paper.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,51.06,714.60,228.68,9.27;2,51.06,726.12,228.67,9.27;2,51.06,737.64,228.64,9.27;2,51.06,749.10,153.33,9.27;2,51.06,465.06,241.26,241.26"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: The development oriented triangulation framework; relating five research types to two domains, along three fundamental tradeoffs in choosing an HCI method.</figDesc><graphic coords="2,51.06,465.06,241.26,241.26" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,55.23,70.15,75.31,9.27;6,51.06,89.69,228.51,11.18;6,62.40,101.21,217.35,11.18;6,62.40,112.73,217.25,11.18;6,62.40,124.19,217.30,11.18;6,62.40,135.71,169.34,11.18" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Composition of situational interactive spaces by end users: a case for cultural heritage</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>References Ardito</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Costabile</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Desolda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Matera</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Piccinno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Picozzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th NordiCHI conference</title>
+		<meeting>the 7th NordiCHI conference</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page">79</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,231.74,135.71,4.64,11.18;6,51.06,153.23,228.50,11.18;6,62.40,164.69,217.26,11.18;6,62.40,176.21,217.25,11.18;6,62.40,187.73,39.56,11.18" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">HCI reality—an ‘Unreal Tournament’?</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Bartneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Rauterberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhcs.2007.03.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Human-Computer Studies</title>
+		<title level="j" type="abbrev">International Journal of Human-Computer Studies</title>
+		<idno type="ISSN">1071-5819</idno>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="737" to="743" />
+			<date type="published" when="2007-08">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,205.19,228.57,11.18;6,62.40,216.71,217.24,11.18;6,62.40,228.23,73.89,11.18" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Advances in mixed methods research: Theories and applications</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Bergman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>SAGE Publications Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,245.69,228.60,11.18;6,62.40,257.21,217.20,11.18;6,62.40,268.73,217.25,11.18;6,62.40,280.19,207.35,11.18" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Joint implicit alignment work of interaction designers and software developers</title>
+		<author>
+			<persName><forename type="first">Judith</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gitte</forename><surname>Lindgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Biddle</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399121</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">693</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,297.71,228.72,11.18;6,62.40,309.23,188.95,11.18;6,62.40,320.69,217.29,11.18;6,62.40,332.21,176.13,11.18" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">6 Why do Researchers Integrate/Combine/Mesh/Blend/Mix/Merge/Fuse Quantitative and Qualitative Research?</title>
+		<author>
+			<persName coords=""><forename type="first">Alan</forename><surname>Bryman</surname></persName>
+		</author>
+		<idno type="DOI">10.4135/9780857024329.d9</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Mixed Methods Research</title>
+		<imprint>
+			<publisher>SAGE Publications Ltd</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="86" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,349.67,228.64,11.18;6,62.40,363.13,217.30,9.27;6,62.40,372.71,112.74,11.18" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Introduction: Toward a Multidisciplinary Science of Human-Computer Interaction</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">M</forename><surname>Carroll</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-155860808-5/50001-0</idno>
+	</analytic>
+	<monogr>
+		<title level="m">HCI Models, Theories, and Frameworks</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,390.17,228.59,11.18;6,62.40,401.69,217.26,11.18;6,62.40,413.21,217.29,11.18;6,62.40,424.67,198.98,11.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Evocative of experience</title>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pete</forename><surname>Wright</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399066</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">318</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,442.19,228.57,11.18;6,62.40,453.71,217.34,11.18;6,62.40,465.17,217.41,11.18;6,62.40,476.69,146.74,11.18" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Tangible 3D tabletops</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Dalsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kim</forename><surname>Halskov</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399033</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">109</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,494.21,228.69,11.18;6,62.40,507.61,217.18,9.27;6,62.40,517.19,119.88,11.18" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">The research act in sociology: A theoretical introduction to sociological methods</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">K</forename><surname>Denzin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1970">1970</date>
+			<publisher>Butterworths</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,534.71,228.63,11.18;6,62.40,546.17,198.90,11.18" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Describing Design-A comparison of paradigms</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Dorst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+		<respStmt>
+			<orgName>Delft University of Technology</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,563.69,228.66,11.18;6,62.40,575.21,217.32,11.18;6,62.40,586.67,217.23,11.18;6,62.40,598.19,217.39,11.18;6,62.40,609.71,91.17,11.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Outliers in usability testing</title>
+		<author>
+			<persName><forename type="first">Asbjørn</forename><surname>Følstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Effie Lai-Chong</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kasper</forename><surname>Hornbæk</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399056</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">257</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,627.17,228.53,11.18;6,62.40,638.69,217.26,11.18;6,62.40,650.15,217.29,11.18;6,62.40,661.67,118.90,11.18" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enhanced feed-forward for a user aware multi-touch device</title>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Freitag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Tränkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Wacker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399104</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">578</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,679.19,228.58,11.18;6,62.40,690.65,217.26,11.18;6,62.40,702.17,217.27,11.18;6,62.40,713.69,217.28,11.18;6,62.40,725.15,179.49,11.18" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Workspace configurations</title>
+		<author>
+			<persName><forename type="first">Leonardo</forename><surname>Giusti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kotval</forename><surname>Xerxes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amelia</forename><surname>Schladow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><surname>Wallen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francis</forename><surname>Zane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Casalegno</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399071</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">351</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,51.06,742.67,228.53,11.18;6,62.40,754.19,217.31,11.18;6,327.00,68.21,217.24,11.18;6,327.00,79.73,207.34,11.18" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Exploring the design of hybrid interfaces for augmented posters in public spaces</title>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Grubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raphaël</forename><surname>Grasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Reitmayr</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399053</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">238</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,97.19,228.63,11.18;6,327.00,108.71,217.28,11.18;6,327.00,120.23,136.54,11.18" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Three Faces of Human-Computer Interaction</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Grudin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/mahc.2005.67</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Annals of the History of Computing</title>
+		<title level="j" type="abbrev">IEEE Annals Hist. Comput.</title>
+		<idno type="ISSN">1058-6180</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="46" to="62" />
+			<date type="published" when="2005-10">2005</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,137.69,228.56,11.18;6,327.00,149.21,217.16,11.18;6,327.00,160.73,217.26,11.18;6,327.00,172.19,217.34,11.18;6,327.00,183.71,102.81,11.18" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Collecting location-based voice messages on a TalkingBadge</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">Paulin</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arne</forename><forename type="middle">John</forename><surname>Glenstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><surname>Wusheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Li</forename><surname>Weiping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wu</forename><surname>Zhonghai</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399050</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">219</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,201.23,228.66,11.18;6,327.00,212.40,217.29,12.13;6,327.00,224.70,80.22,12.11" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The three paradigms of HCI</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Tatar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Sengers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Alt.CHI, Proceedings of CHI &apos;07</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,243.05,228.58,11.18;6,327.00,254.51,217.24,11.18;6,327.00,266.03,217.29,11.18;6,327.00,277.55,19.52,11.18" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Design Science in Information Systems Research</title>
+		<author>
+			<persName><surname>Hevner</surname></persName>
+		</author>
+		<author>
+			<persName><surname>March</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ram</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/25148625</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MIS Quarterly</title>
+		<title level="j" type="abbrev">MIS Quarterly</title>
+		<idno type="ISSN">0276-7783</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2004">2004</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,295.01,228.50,11.18;6,327.00,306.53,217.30,11.18;6,327.00,318.05,217.29,11.18;6,327.00,329.51,80.96,11.18" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Attention to detail</title>
+		<author>
+			<persName><forename type="first">Nadine</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andy</forename><surname>Boucher</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399019</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,407.96,329.51,4.64,11.18;6,315.66,347.03,228.66,11.18;6,327.00,358.55,217.31,11.18;6,327.00,371.95,217.32,9.27;6,327.00,381.53,113.82,11.18" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Design Research Through Practice: From the Lab, Field, and Showroom</title>
+		<author>
+			<persName><forename type="first">Ilpo</forename><surname>Koskinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johan</forename><surname>Redstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Wensveen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tpc.2013.2274109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Professional Communication</title>
+		<title level="j" type="abbrev">IEEE Trans. Profess. Commun.</title>
+		<idno type="ISSN">0361-1434</idno>
+		<idno type="ISSNe">1558-1500</idno>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="262" to="263" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,399.05,228.52,11.18;6,327.00,410.51,217.29,11.18;6,327.00,422.03,217.33,11.18;6,327.00,433.55,179.49,11.18" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Using correspondence analysis to monitor the persona segmentation process</title>
+		<author>
+			<persName><forename type="first">Lieve</forename><surname>Laporte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karin</forename><surname>Slegers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>De Grooff</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2399016.2399058</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</title>
+		<meeting>the 7th Nordic Conference on Human-Computer Interaction: Making Sense Through Design</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-14">2012</date>
+			<biblScope unit="page">265</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,451.01,228.61,11.18;6,327.00,462.53,217.24,11.18;6,327.00,473.99,217.33,11.18;6,327.00,485.51,138.47,11.18" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">HCI, natural science and design</title>
+		<author>
+			<persName><forename type="first">Wendy</forename><forename type="middle">E</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne-Laure</forename><surname>Fayard</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/263552.263612</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the conference on Designing interactive systems processes, practices, methods, and techniques - DIS &apos;97</title>
+		<meeting>the conference on Designing interactive systems processes, practices, methods, and techniques - DIS &apos;97</meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page">223</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,503.03,228.59,11.18;6,327.00,514.49,193.82,11.18" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Autonomous management of distributed information systems using evolutionary computation techniques</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">J</forename><surname>Oates</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.58264</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The second international conference on computing anticipatory systems, CASYS’98</title>
+		<imprint>
+			<publisher>ASCE</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,532.01,228.54,11.18;6,327.00,543.53,217.34,11.18;6,327.00,554.99,33.39,11.18;6,377.73,554.99,38.87,11.18;6,433.94,554.99,7.79,11.18;6,459.02,554.99,49.46,11.18;6,525.82,554.99,18.35,11.18;6,327.00,566.51,217.34,11.18;6,327.00,579.97,217.29,9.27;6,327.00,589.49,67.29,11.18" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Toward a framework for classifying and guiding mixed method research in information systems</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">C</forename><surname>Petter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Gallivan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/hicss.2004.1265614</idno>
+	</analytic>
+	<monogr>
+		<title level="m">37th Annual Hawaii International Conference on System Sciences, 2004. Proceedings of the</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2004">2004. 2004</date>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,607.01,228.68,11.18;6,327.00,618.53,217.25,11.18;6,327.00,629.99,46.14,11.18" xml:id="b24">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">J</forename><surname>Runkel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">E</forename><surname>Macgrath</surname></persName>
+		</author>
+		<title level="m">Research on human behavior</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Holt, Rinehart and Winston</publisher>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,647.51,228.56,11.18;6,327.00,659.03,217.24,11.18;6,327.00,670.49,217.34,11.18;6,327.00,682.01,217.26,11.18;6,327.00,693.53,36.18,11.18" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Dispelling &quot;design&quot; as the black art of CHI</title>
+		<author>
+			<persName><forename type="first">Tracee</forename><forename type="middle">Vetting</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">A</forename><surname>Rode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeremy</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wendy</forename><forename type="middle">A</forename><surname>Kellogg</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1124772.1124853</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006-04-22">2006</date>
+			<biblScope unit="page">521</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,315.66,710.99,228.66,11.18;6,327.00,722.51,217.24,11.18;6,327.00,733.97,217.28,11.18;6,327.00,747.43,217.34,9.27;6,327.00,757.01,149.49,11.18" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Research through design as a method for interaction design research in HCI</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jodi</forename><surname>Forlizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shelley</forename><surname>Evenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1240624.1240704</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2007-04-29">2007</date>
+			<biblScope unit="page">493</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
